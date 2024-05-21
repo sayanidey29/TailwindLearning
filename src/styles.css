@@ -1,0 +1,8 @@
+/*These are the tailwind classes*/
+/*Tailwind Directive For Classes*/
+/*This is tailwind base class*/
+@tailwind base;
+/*This is tailwind component class*/
+@tailwind components;
+/*This is tailwind utilities class*/
+@tailwind utilities;
