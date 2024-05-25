@@ -6,3 +6,21 @@
 @tailwind components;
 /*This is tailwind utilities class*/
 @tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-green-500 underline;
+  }
+}
+
+@layer components {
+  .menu-button {
+    @apply text-white bg-indigo-600 p-3;
+  }
+}
+
+@layer utilities {
+  .text-red-500 {
+    color: rgb(128, 15, 15);
+  }
+}
